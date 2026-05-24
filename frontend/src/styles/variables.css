@@ -1,0 +1,103 @@
+/* ============================================================
+   AAEF — Design System Variables (Dark Security Theme)
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* — Background Layers — */
+  --bg-body: #06080f;
+  --bg-surface: #0d1117;
+  --bg-elevated: #161b22;
+  --bg-card: #1c2333;
+  --bg-hover: #21283b;
+  --bg-active: #292f42;
+  --bg-glass: rgba(13, 17, 23, 0.8);
+
+  /* — Accent Colors — */
+  --accent-primary: #00e87b;
+  --accent-primary-dim: rgba(0, 232, 123, 0.15);
+  --accent-secondary: #3b82f6;
+  --accent-secondary-dim: rgba(59, 130, 246, 0.15);
+  --accent-tertiary: #a855f7;
+  --accent-tertiary-dim: rgba(168, 85, 247, 0.15);
+
+  /* — Severity Colors — */
+  --severity-critical: #ff4757;
+  --severity-critical-bg: rgba(255, 71, 87, 0.12);
+  --severity-high: #ff8c42;
+  --severity-high-bg: rgba(255, 140, 66, 0.12);
+  --severity-medium: #ffc312;
+  --severity-medium-bg: rgba(255, 195, 18, 0.12);
+  --severity-low: #00e87b;
+  --severity-low-bg: rgba(0, 232, 123, 0.12);
+  --severity-info: #3b82f6;
+  --severity-info-bg: rgba(59, 130, 246, 0.12);
+
+  /* — Status Colors — */
+  --status-running: #3b82f6;
+  --status-completed: #00e87b;
+  --status-failed: #ff4757;
+  --status-pending: #ffc312;
+  --status-cancelled: #6b7280;
+
+  /* — Text — */
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-tertiary: #6b7280;
+  --text-accent: #00e87b;
+  --text-inverse: #06080f;
+
+  /* — Borders — */
+  --border-primary: #30363d;
+  --border-subtle: #21262d;
+  --border-accent: rgba(0, 232, 123, 0.3);
+
+  /* — Typography — */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+
+  --text-xs: 0.6875rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+
+  /* — Spacing — */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* — Radius — */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* — Shadows — */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 20px rgba(0, 232, 123, 0.15);
+  --shadow-glow-blue: 0 0 20px rgba(59, 130, 246, 0.15);
+
+  /* — Transitions — */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* — Layout — */
+  --sidebar-width: 260px;
+  --sidebar-collapsed: 72px;
+  --header-height: 56px;
+  --content-max-width: 1600px;
+}

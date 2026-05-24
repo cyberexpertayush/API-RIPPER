@@ -1,0 +1,78 @@
+# ==========================================
+# API RIPPER — .gitignore
+# ==========================================
+
+# ── Python ────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ── Virtual Environment ──────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Environment Variables (SECRETS) ──────
+backend/.env
+frontend/.env
+
+# ── Database Files ───────────────────────
+*.db
+*.sqlite3
+*.db-journal
+
+# ── Node.js ──────────────────────────────
+node_modules/
+frontend/node_modules/
+
+# ── Frontend Build Output ────────────────
+frontend/dist/
+
+# ── Scan Output / Reports (user data) ────
+output/
+backend/reports/*.json
+backend/reports/*.html
+backend/reports/*.csv
+backend/reports/*.pdf
+!backend/reports/.gitkeep
+
+# ── Arsec Module Output (empty dir) ──────
+backend/arsec_modules/output/
+
+# ── Pytest / Testing ─────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── IDE / Editor ─────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── OS Generated ─────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ── Package Lock (root-level spurious) ───
+/package-lock.json
+
+# ── Gemini / AI Tool Data ────────────────
+.gemini/
+
+# ── Implementation Notes (dev only) ──────
+Imple.md
