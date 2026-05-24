@@ -19,10 +19,10 @@ cd "API RIPPER"
 
 **Terminal 1 — Backend:**
 ```bash
+cd "API RIPPER"
 python -m venv venv
 .\venv\Scripts\activate (for widnwos users only)
 source venv/bin/activate (for linux & mac users only)
-cd "API RIPPER"
 pip install -r backend/requirements.txt
 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
 ```
